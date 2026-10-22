@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prathiksha | CSE Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#0b1020;color:#edf2ff;line-height:1.7}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 8%;border-bottom:1px solid #252c43;position:sticky;top:0;background:#0b1020ee;backdrop-filter:blur(10px);z-index:10}
+.logo{font-weight:bold;font-size:22px;color:#8b9cff}
+nav a{color:#d5dcf0;text-decoration:none;margin-left:20px;font-size:14px}
+nav a:hover,.btn:hover{color:#a9b5ff}
+section{padding:75px 10%;scroll-margin-top:70px}
+.hero{min-height:78vh;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.tag{color:#9baaff;border:1px solid #424d79;border-radius:30px;padding:6px 14px;font-size:13px}
+h1{font-size:clamp(42px,7vw,70px);line-height:1.15;margin:24px 0}
+h1 span,h2 span{color:#9baaff}
+p{color:#b6bfd5;max-width:680px}
+.btn{display:inline-block;margin:24px 12px 0 0;padding:11px 19px;border-radius:8px;background:#8495ff;color:#10152a;text-decoration:none;font-weight:bold}
+.btn.secondary{background:transparent;border:1px solid #586487;color:#e8edff}
+h2{font-size:32px;margin-bottom:25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:#121a30;border:1px solid #29334e;border-radius:14px;padding:23px}
+.card h3{margin-bottom:10px;color:#e4e9ff}
+.card p{font-size:14px}
+.skills{display:flex;flex-wrap:wrap;gap:12px}
+.skills span{background:#18223d;border:1px solid #344263;padding:9px 15px;border-radius:8px;color:#dbe2ff}
+section:nth-of-type(even){background:#0e1426}
+footer{text-align:center;padding:28px;color:#929db7;border-top:1px solid #252c43}
+@media(max-width:600px){nav{padding:16px 5%}nav a{margin-left:9px;font-size:12px}section{padding:55px 7%}.logo{font-size:18px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Prathiksha.</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <span class="tag">Computer Science Engineering Student</span>
+  <h1>Hi, I'm <span>Prathiksha.</span><br>I build things with code.</h1>
+  <p>I'm a CSE student passionate about software development, problem-solving and exploring technology through practical projects. Welcome to my portfolio!</p>
+  <div>
+    <a class="btn" href="#projects">Explore my work ↓</a>
+    <a class="btn secondary" href="https://github.com/prathikshancs25-rgb" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About <span>Me</span></h2>
+  <p>I'm a Computer Science Engineering student who enjoys turning ideas into practical solutions. Through academic and collaborative projects, I'm developing my programming, problem-solving and software development skills. I'm eager to learn, build and contribute to meaningful technology projects.</p>
+</section>
+
+<section id="skills">
+  <h2>Technical <span>Skills</span></h2>
+  <div class="skills">
+    <span>C</span><span>C++</span><span>Data Structures</span>
+    <span>Algorithms</span><span>Git & GitHub</span>
+    <span>HTML</span><span>CSS</span><span>Problem Solving</span>
+  </div>
+  <p style="margin-top:18px;font-size:13px">Edit this list to include only technologies you actually know.</p>
+</section>
+
+<section id="projects">
+  <h2>Featured <span>Projects</span></h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Plagiarism Detector</h3>
+      <p>A project focused on identifying similarities between documents and supporting originality checks.</p>
+      <a class="btn" href="https://github.com/prathikshancs25-rgb/plagiarismdetector" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+    </div>
+    <div class="card">
+      <h3>Carpooling</h3>
+      <p>A project exploring ride-sharing to help people coordinate journeys and make travel more convenient.</p>
+      <a class="btn" href="https://github.com/prathikshancs25-rgb/Carpooling" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+    </div>
+    <div class="card">
+      <h3>Plagiarism Project</h3>
+      <p>Explore my repository and the implementation details of my work.</p>
+      <a class="btn" href="https://github.com/prathikshancs25-rgb/plagiarism" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Let's <span>Connect</span></h2>
+  <p>I'm interested in learning opportunities, internships and collaborating on interesting projects.</p>
+  <a class="btn" href="https://github.com/prathikshancs25-rgb" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+  <a class="btn secondary" href="mailto:YOUR_EMAIL@example.com">Email Me ↗</a>
+</section>
+
+<footer>Designed & built by Prathiksha · 2026</footer>
+</body>
+</html>
